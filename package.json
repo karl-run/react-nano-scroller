@@ -1,6 +1,6 @@
 {
   "name": "react-nano-spinner",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A very small loading spinner.",
   "main": "dist/react-nano-scroller.js",
   "module": "dist/react-nano-scroller.mjs",

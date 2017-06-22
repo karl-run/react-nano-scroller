@@ -4,17 +4,15 @@ A tiny no-configuration (and not configurable) spinner.
 
 Spinner and CSS is based on SpinKit's "three-bounce".
 
-Lisence: https://github.com/tobiasahlin/SpinKit/blob/master/LICENSE
+License: https://github.com/tobiasahlin/SpinKit/blob/master/LICENSE
 
 ## Usage
-
-Example:
 
 Install it with yarn or npm:
 
 `yarn add react-nano-spinner` or `npm install --save react-nano-spinner`
 
-    import Spinner from 'react-nano-spinner'
+    import Spinner from 'react-nano-spinner';
 
     ...
     render() {
