@@ -1,10 +1,8 @@
 {
   "name": "react-nano-spinner",
-  "version": "1.0.3",
+  "version": "1.0.7",
   "description": "A very small loading spinner.",
   "main": "dist/react-nano-spinner.js",
-  "module": "dist/react-nano-spinner.mjs",
-  "jsnext:main": "dist/react-nano-spinner.mjs",
   "scripts": {
     "prebuild": "eslint lib",
     "build": "rollup -c --environment BUILD:production",

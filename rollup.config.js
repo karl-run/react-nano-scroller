@@ -25,11 +25,6 @@ export default {
       format: 'umd',
       moduleName: 'reactNanoSpinner',
       sourceMap: true
-    },
-    {
-      dest: pkg.module,
-      format: 'es',
-      sourceMap: true
     }
   ]
 };
