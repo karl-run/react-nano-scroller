@@ -2,16 +2,16 @@
   "name": "react-nano-spinner",
   "version": "1.0.1",
   "description": "A very small loading spinner.",
-  "main": "dist/react-nano-scroller.js",
-  "module": "dist/react-nano-scroller.mjs",
-  "jsnext:main": "dist/react-nano-scroller.mjs",
+  "main": "dist/react-nano-spinner.js",
+  "module": "dist/react-nano-spinner.mjs",
+  "jsnext:main": "dist/react-nano-spinner.mjs",
   "scripts": {
     "prebuild": "eslint lib",
     "build": "rollup -c --environment BUILD:production",
     "watch": "rollup -c -w",
     "pretest": "rollup -c"
   },
-  "repository": "https://github.com/karl-run/react-nano-scroller",
+  "repository": "https://github.com/karl-run/react-nano-spinner",
   "keywords": [
     "react",
     "spinner",
@@ -20,13 +20,13 @@
   "author": "Karl J. Overå",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/karl-run/react-nano-scroller/issues"
+    "url": "https://github.com/karl-run/react-nano-spinner/issues"
   },
   "files": [
     "lib",
     "dist"
   ],
-  "homepage": "https://github.com/karl-run/react-nano-scroller#readme",
+  "homepage": "https://github.com/karl-run/react-nano-spinner#readme",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
