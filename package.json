@@ -1,6 +1,6 @@
 {
   "name": "react-nano-spinner",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A very small loading spinner.",
   "main": "dist/react-nano-spinner.js",
   "module": "dist/react-nano-spinner.mjs",
@@ -40,17 +40,16 @@
     "babel-register": "^6.18.0",
     "babelrc-rollup": "^3.0.0",
     "eslint": "^3.19.0",
-    "eslint-config-airbnb": "^15.0.1",
-    "eslint-plugin-import": "^2.5.0",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jsx-a11y": "^5.0.3",
     "eslint-plugin-react": "^7.1.0",
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0",
-    "rollup": "^0.37.0",
+    "rollup": "^0.45.0",
     "rollup-plugin-babel": "^2.7.1",
     "rollup-plugin-css-only": "^0.2.0",
-    "rollup-plugin-istanbul": "^1.1.0",
     "rollup-plugin-postcss": "^0.5.3",
-    "rollup-watch": "^2.5.0"
+    "rollup-watch": "^4.0.0"
   }
 }
