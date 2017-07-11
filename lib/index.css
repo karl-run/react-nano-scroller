@@ -2,12 +2,13 @@
     margin: 0 auto;
     width: 70px;
     text-align: center;
+    color: black;
 }
 
 .nano-spinner-bounce > div {
     width: 18px;
     height: 18px;
-    background-color: #333;
+    background-color: currentColor;
 
     border-radius: 100%;
     display: inline-block;
