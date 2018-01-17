@@ -1,4 +1,4 @@
-# react-nano-spinner [![NPM version](https://img.shields.io/npm/v/react-nano-spinner.svg?style=flat)](https://www.npmjs.com/package/react-nano-spinner)
+# react-nano-spinner [![NPM version](https://img.shields.io/npm/v/react-nano-spinner.svg?style=flat)](https://www.npmjs.com/package/react-nano-spinner) ![Gzipped size](https://img.shields.io/badge/gzipped-0.6kb-brightgreen.png)
 
 A tiny no-configuration (and not configurable) spinner.
 
