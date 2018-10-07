@@ -1,6 +1,6 @@
 {
   "name": "react-nano-spinner",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "A very small loading spinner.",
   "keywords": [
     "react",
@@ -14,32 +14,18 @@
   "bugs": {
     "url": "https://github.com/karl-run/react-nano-scroller/issues"
   },
-  "main": "dist/react-nano-spinner.cjs.js",
-  "module": "dist/react-nano-spinner.esm.js",
-  "browser": "dist/react-nano-spinner.umd.js",
+  "main": "dist/react-nano-spinner.js",
+  "umd:main": "dist/react-nano-spinner.umd.js",
+  "module": "dist/react-nano-spinner.mjs",
   "peerDependencies": {
     "react": "^15.0.0 || ^16.0.0"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-plugin-external-helpers": "^6.22.0",
-    "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-es2015": "^6.24.1",
-    "babelrc-rollup": "^3.0.0",
-    "postcss-modules": "^1.1.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "rollup": "^0.51.5",
-    "rollup-plugin-babel": "^3.0.2",
-    "rollup-plugin-commonjs": "^8.2.6",
-    "rollup-plugin-node-resolve": "^3.0.0",
-    "rollup-plugin-postcss": "^0.5.5"
+    "microbundle": "^0.6.0"
   },
   "scripts": {
-    "build": "rollup -c",
-    "dev": "rollup -c -w",
-    "test": "node test/test.js",
-    "pretest": "npm run build"
+    "build": "microbundle build --external react",
+    "dev": "microbundle watch"
   },
   "files": [
     "dist",
